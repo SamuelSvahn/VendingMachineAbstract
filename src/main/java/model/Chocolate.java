@@ -1,14 +1,15 @@
 package model;
 
-public class Snickers extends Product {
+public class Chocolate extends Product {
 
 
-    private String
+    private String sort;
 
 
 
-    public Snickers(int id, double price, String productName) {
+    public Chocolate(int id, double price, String productName, String sort) {
         super(id, price, productName);
+        setSort(sort);
     }
 
     public String examine() {
@@ -17,5 +18,13 @@ public class Snickers extends Product {
 
     public String use() {
         return null;
+    }
+
+    public String getSort() {
+        return sort;
+    }
+
+    public void setSort(String sort) {
+        this.sort = sort;
     }
 }

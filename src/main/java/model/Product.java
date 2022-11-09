@@ -1,4 +1,4 @@
-package se.lexicon;
+package model;
 
 
 public abstract class Product {
@@ -8,7 +8,7 @@ public abstract class Product {
     private double price;
     private String productName;
 
-    public Product(int id, double price, String productName) {
+    public  Product(int id, double price, String productName) {
         setId(id);
         setPrice(price);
         setProductName(productName);
