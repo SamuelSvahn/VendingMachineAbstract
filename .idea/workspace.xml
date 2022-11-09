@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e93cc84-bab9-4d96-9b10-640419ee1c50" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Chocolate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/IceCream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Soda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/se/lexicon/AppTest.java" afterDir="false" />
+    <list default="true" id="4e93cc84-bab9-4d96-9b10-640419ee1c50" name="Changes" comment="Started with vending machine">
+      <change afterPath="$PROJECT_DIR$/Readme.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/data/VendingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/data/VendingMachineImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Chocolate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Chocolate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/IceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/IceCream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Soda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Soda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -55,6 +54,13 @@
       <option name="presentableId" value="Default" />
       <updated>1667981337857</updated>
     </task>
+    <task id="LOCAL−00001" summary="Started with vending machine">
+      <created>1667989000889</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1667989000889</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -67,5 +73,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Started with vending machine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started with vending machine" />
   </component>
 </project>

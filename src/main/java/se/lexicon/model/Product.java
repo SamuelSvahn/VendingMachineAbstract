@@ -1,4 +1,4 @@
-package model;
+package se.lexicon.model;
 
 
 public abstract class Product {

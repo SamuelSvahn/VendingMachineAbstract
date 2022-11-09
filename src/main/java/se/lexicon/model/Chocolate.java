@@ -1,4 +1,4 @@
-package model;
+package se.lexicon.model;
 
 public class Chocolate extends Product {
 
@@ -13,11 +13,11 @@ public class Chocolate extends Product {
     }
 
     public String examine() {
-        return null;
+        return "Id: "+getId()+ "Name: "+getProductName()+ " Price: "+ getPrice();
     }
 
     public String use() {
-        return null;
+        return getProductName()+" You are not you when you are hungry";
     }
 
     public String getSort() {
