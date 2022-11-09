@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e93cc84-bab9-4d96-9b10-640419ee1c50" name="Changes" comment="Started with vending machine">
-      <change afterPath="$PROJECT_DIR$/Readme.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/data/VendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/data/VendingMachineImpl.java" afterDir="false" />
+    <list default="true" id="4e93cc84-bab9-4d96-9b10-640419ee1c50" name="Changes" comment="Added new parts">
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Chocolate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Chocolate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/IceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/IceCream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Soda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Soda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/data/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/data/IVendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/data/VendingMachineImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/data/VendingMachineImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Chocolate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Chocolate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/model/IceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/IceCream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Soda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Soda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +44,26 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.model.App" />
+      <module name="VendingMachine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.lexicon.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,7 +79,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1667989000889</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Added new parts">
+      <created>1667992538156</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1667992538156</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -76,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started with vending machine" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started with vending machine" />
+    <MESSAGE value="Added new parts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new parts" />
   </component>
 </project>

@@ -3,15 +3,18 @@ package se.lexicon.data;
 
 import se.lexicon.model.Product;
 
-public class VendingMachineImpl implements VendingMachine {
+public class VendingMachineImpl implements IVendingMachine {
 
 
     private Product[] products;
     private int depositPool;
 
     public VendingMachineImpl(Product[] products) {
-        getProducts();
+        this.products= products;
     }
+
+
+
 
     public void addCurrency(int amount) {
 

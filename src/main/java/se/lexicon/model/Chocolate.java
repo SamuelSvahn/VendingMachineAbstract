@@ -3,13 +3,18 @@ package se.lexicon.model;
 public class Chocolate extends Product {
 
 
-    private String sort;
+    private String brand;
+    private String taste;
+    private String size;
 
 
 
-    public Chocolate(int id, double price, String productName, String sort) {
+
+    public Chocolate(int id, double price, String productName, String brand, String taste, String size) {
         super(id, price, productName);
-        setSort(sort);
+        setBrand(brand);
+        setTaste(taste);
+        setSize(size);
     }
 
     public String examine() {
@@ -20,11 +25,27 @@ public class Chocolate extends Product {
         return getProductName()+" You are not you when you are hungry";
     }
 
-    public String getSort() {
-        return sort;
+    public String getBrand() {
+        return brand;
     }
 
-    public void setSort(String sort) {
-        this.sort = sort;
+    public void setBrand(String sort) {
+        this.brand = sort;
+    }
+
+    public String getTaste() {
+        return taste;
+    }
+
+    public void setTaste(String taste) {
+        this.taste = taste;
+    }
+
+    public String getSize() {
+        return size;
+    }
+
+    public void setSize(String size) {
+        this.size = size;
     }
 }
