@@ -8,8 +8,6 @@ public class Chocolate extends Product {
     private String size;
 
 
-
-
     public Chocolate(int id, double price, String productName, String brand, String taste, String size) {
         super(id, price, productName);
         setBrand(brand);
@@ -18,11 +16,11 @@ public class Chocolate extends Product {
     }
 
     public String examine() {
-        return "Id: "+getId()+ "Name: "+getProductName()+ " Price: "+ getPrice();
+        return "Id: " + getId() + "Name: " + getProductName() + " Price: " + getPrice();
     }
 
     public String use() {
-        return getProductName()+" You are not you when you are hungry";
+        return getProductName() + " You are not you when you are hungry";
     }
 
     public String getBrand() {

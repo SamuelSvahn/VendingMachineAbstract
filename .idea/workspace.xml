@@ -6,9 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="4e93cc84-bab9-4d96-9b10-640419ee1c50" name="Changes" comment="Updated elements and added app class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/data/IVendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/data/IVendingMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/data/VendingMachineImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/data/VendingMachineImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/model/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Chocolate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Chocolate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/model/IceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/IceCream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Soda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Soda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +39,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="se.lexicon.model.App" />

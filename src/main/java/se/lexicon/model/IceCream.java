@@ -1,6 +1,6 @@
 package se.lexicon.model;
 
-public class IceCream extends Product{
+public class IceCream extends Product {
 
     private String consistency;
     private String flavour;
@@ -17,11 +17,11 @@ public class IceCream extends Product{
     }
 
     public String examine() {
-        return "Id: "+getId()+ "Name: "+getProductName()+ " Price: "+ getPrice();
+        return "Id: " + getId() + "Name: " + getProductName() + " Price: " + getPrice();
     }
 
     public String use() {
-        return "Name: "+ getProductName()+ " When you need to cool down";
+        return "Name: " + getProductName() + " When you need to cool down";
     }
 
     public String getConsistency() {

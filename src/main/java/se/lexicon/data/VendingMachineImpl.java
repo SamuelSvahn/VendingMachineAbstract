@@ -13,26 +13,22 @@ public class VendingMachineImpl implements IVendingMachine {
     private int depositPool;
 
     public VendingMachineImpl(Product[] products) {
-        this.products= products;
-    }
+        this.products = products;
+        this.depositPool = 0;
 
-    int[] value={1,2,5,10,20,50,100,200,500,1000};
-    private String toString(int[] value) {
-        return value.toString();
     }
 
 
-    @Override
+    int[] value = {1, 2, 5, 10, 20, 50, 100, 200, 500, 1000};
+
+
     public void addCurrency(int amount) {
-        for (int values : value) {
-            if (amount == values) {
-                depositPool += amount;
-            } else {
-                System.out.println("Amount is not valid!, Valid amounts are: " + toString(value));
-            }
-        }
+        int valid_currency[] = {1, 2, 5, 10, 20, 50, 100, 200, 500, 1000};
+        int change = Arrays.binarySearch(valid_currency, amount);
+        if (change >= 0)
+            this.depositPool += amount;
+        else System.out.println("Please Deposit valid Currency");
     }
-
 
 
     public int getBalance() {
@@ -40,23 +36,40 @@ public class VendingMachineImpl implements IVendingMachine {
     }
 
     public Product request(int id) {
-       if(depositPool!=)
 
-        return ;
+
+        for (Product prod : products) {
+            if (depositPool >= prod.getPrice()) {
+                if (id == prod.getId()) this.depositPool -= prod.getPrice();
+                return prod;
+            }
+        }
+
+
+        return null;
     }
 
     public int endSession() {
-        int change= depositPool;
-        depositPool=0;
-        return change;
+        int tmp = this.depositPool;
+        this.depositPool = 0;
+        return tmp;
     }
 
     public String getDescription(int id) {
-       return products.toString();
+        for (Product productElement : products) {
+            if (productElement.getId() == id) {
+                return productElement.toString();
+            }
+        }
+
+
+        return "No product was found";
 
     }
-    public String[] getProducts() {
-        return new String[0];
+
+    public Product[] getProducts() {
+
+        return products;
     }
 
 

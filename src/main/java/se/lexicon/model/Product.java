@@ -8,13 +8,20 @@ public abstract class Product {
     private double price;
     private String productName;
 
-    public  Product(int id, double price, String productName) {
+    public Product(int id, double price, String productName) {
         setId(id);
         setPrice(price);
         setProductName(productName);
     }
 
-
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", price=" + price +
+                ", productName='" + productName + '\'' +
+                '}';
+    }
 
     public abstract String examine();
 
