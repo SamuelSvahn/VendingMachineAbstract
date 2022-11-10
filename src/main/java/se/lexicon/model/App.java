@@ -16,6 +16,7 @@ public class App {
 
 
         // Show all products
+
         Product[] availProduct = vendingMachine.getProducts();
         System.out.println("All available products\n");
         for (Product availProd : availProduct)
@@ -30,8 +31,6 @@ public class App {
         System.out.println(vendingMachine.getBalance()); // 85
         vendingMachine.endSession();
         System.out.println(vendingMachine.endSession()); // 0
-
-
 
         /*System.out.println("----------------------------");
 

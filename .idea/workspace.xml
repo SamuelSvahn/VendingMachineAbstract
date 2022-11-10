@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e93cc84-bab9-4d96-9b10-640419ee1c50" name="Changes" comment="Updated elements and added app class">
+    <list default="true" id="4e93cc84-bab9-4d96-9b10-640419ee1c50" name="Changes" comment="Done with the task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/data/IVendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/data/IVendingMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/data/VendingMachineImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/data/VendingMachineImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/model/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Chocolate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Chocolate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/model/IceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/IceCream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Soda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/model/Soda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +86,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1668008234489</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Done with the task">
+      <created>1668078727812</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1668078727813</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +110,7 @@
     <MESSAGE value="Started with vending machine" />
     <MESSAGE value="Added new parts" />
     <MESSAGE value="Updated elements and added app class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated elements and added app class" />
+    <MESSAGE value="Done with the task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done with the task" />
   </component>
 </project>
